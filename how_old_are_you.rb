@@ -1,7 +1,7 @@
 require_relative './current_age_for_birth_year.rb'
 
 puts "What yeear were you born?"
-birth_year = get.to_i
+birth_year = gets.to_i
 
 users_age = current_age_for_birth_year(birth_year)
 
